@@ -1,0 +1,1 @@
+hadoop jar hadoop-streaming-2.7.3.jar -mapper /Users/zhourr/Desktop/python/rm/mapper.py -reducer /Users/zhourr/Desktop/python/rm/reducer.py -input /Users/zhourr/Desktop/python/rm/stock/* -output /Users/zhourr/Desktop/python/rm/stock/stock-output
